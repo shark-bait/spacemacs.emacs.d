@@ -30,14 +30,7 @@
 ;;; Code:
 
 (defconst zhangbin-packages
-  '(youdao-dictionary)
-  )
-(defun zhangbin/init-youdao-dictionary()
-  (use-package youdao-dictionary
-    :init
-    (spacemacs/set-leader-keys "oy" 'youdao-dictionary-search-at-point+)
-    )
-  
+  '()
   )
 
 ;;; packages.el ends here
