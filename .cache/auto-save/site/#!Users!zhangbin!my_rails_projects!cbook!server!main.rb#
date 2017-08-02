@@ -1,0 +1,71 @@
+require 'sinatra'
+require 'mini_magick'
+require 'sinatra/activerecord'
+require 'require_all'
+require_rel './upload_help'
+require 'sinatra/session'
+
+set :database,{adapter: "sqlite3", database: "development1.sqlite3", pool: 5, timeout: 5000}
+
+require_rel 'models'
+require_rel 'graphql'
+get '/' do
+  erb :captcha
+end
+
+post '/login' do
+  ps = JSON.parse(request.body.read)
+  if(not session?)
+    if u = User.where(email:ps['email'],password:ps['password']).first
+      session_start!
+      session[:name] = u.name
+      return 'login success'
+    else
+      return [401, {'Content-Type' => 'text/html'}, ["UNAUTHORIZED"]]
+    end
+  else
+    return 'login success'
+  end
+end
+
+get '/mini_magick' do
+  image = MiniMagick::Image.open("input.jpg")
+  image.path #=> "/var/folders/k7/6zx6dx6x7ys3rv3srh0nyfj00000gn/T/magick20140921-75881-1yho3zc.jpg"
+  image.resize "100x100"
+  image.format "png"
+  image.write "output.png"
+  return 'ok'
+end 
+
+post '/graphql' do
+  payload = JSON.parse(request.body.read)
+  p payload
+  result_hash = BBSchema.execute(payload['query'], variables: payload['variables']).to_json
+  p result_hash
+  result_hash
+end
+
+post "/api" do
+  payload = JSON.parse(request.body.read)
+  p payload
+  result_hash = BBSchema.execute(payload['query'], variables: payload['variables']).to_json
+  p result_hash
+  result_hash
+end
+get "/api/" do
+  'hello'
+end
+
+post '/upload' do
+  puts 'upload'
+  unless params[:file] &&
+      (tempfile = params[:file][:tempfile]) &&
+      (filename = params[:file][:filename])
+    @error = 'No file selected'
+  end
+
+  target = UploadHelp.create_upload_filename(filename)
+
+  File.open(target, 'wb') {|f| f.write tempfile.read }
+  return target
+end

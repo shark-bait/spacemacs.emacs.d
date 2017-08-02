@@ -1,0 +1,80 @@
+
+;; ----- smex-history -----
+(
+ web-mode
+ load-theme
+ eshell
+ toggle-debug-on-error
+ yas/new-snippet
+ ruby-mode
+ snippet-mode
+ spacemacs/auto-yasnippet-expand
+ package-install
+ js-mode
+ counsel-ag
+ helm-do-grep-ag
+ centered-cursor-mode
+ yafolding-mode
+ projectile-invalidate-cache
+ rvm-use-default
+ customize-group
+ rvm-use
+ magit-gitignore
+ magit-status
+ configuration-layer/create-layer
+ highlight-compare-with-file
+ highlight-compare-buffers
+ compare-windows
+ flycheck-mode
+ rubocop-mode
+ helm-locate
+ counsel-locate
+ spacemacs/home
+ kmacro-bind-to-key
+ toggle-debug-on-quit
+ yafolding-toggle-element
+)
+
+;; ----- smex-data -----
+(
+ (counsel-locate . 1)
+ (helm-locate . 4)
+ (describe-personal-keybindings . 1)
+ (kmacro-bind-to-key . 1)
+ (rvm-use . 3)
+ (helm-do-grep-ag . 4)
+ (spacemacs/home . 1)
+ (toggle-debug-on-quit . 1)
+ (rubocop-mode . 1)
+ (flycheck-mode . 1)
+ (compare-windows . 1)
+ (compare-windows-dehighlight . 1)
+ (highlight-compare-buffers . 1)
+ (highlight-compare-with-file . 1)
+ (configuration-layer/create-layer . 1)
+ (magit-status . 1)
+ (magit-gitignore . 1)
+ (centered-cursor-mode . 3)
+ (eshell . 7)
+ (package-install . 4)
+ (web-mode . 5)
+ (customize-group . 1)
+ (load-theme . 18)
+ (rvm-use-default . 1)
+ (projectile-invalidate-cache . 2)
+ (yafolding-mode . 2)
+ (yafolding-toggle-element . 1)
+ (counsel-ag . 1)
+ (js-mode . 1)
+ (aya-open-line . 1)
+ (aya-create-one-line . 4)
+ (aya-create . 15)
+ (aya-expand . 5)
+ (spacemacs/auto-yasnippet-expand . 1)
+ (aya-persist-snippet . 10)
+ (snippet-mode . 1)
+ (ruby-mode . 1)
+ (yas/new-snippet . 1)
+ (toggle-debug-on-error . 1)
+ (aya-yank-snippet . 1)
+)

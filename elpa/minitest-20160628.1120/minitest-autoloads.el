@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "minitest" "minitest.el" (22890 21720 0 0))
+;;;### (autoloads nil "minitest" "minitest.el" (22912 31259 0 0))
 ;;; Generated autoloads from minitest.el
 
 (autoload 'minitest-mode "minitest" "\
@@ -20,7 +20,7 @@ Minor mode for *_test (minitest) files
 
 ;;;***
 
-;;;### (autoloads nil nil ("minitest-pkg.el") (22890 21720 0 0))
+;;;### (autoloads nil nil ("minitest-pkg.el") (22912 31259 0 0))
 
 ;;;***
 

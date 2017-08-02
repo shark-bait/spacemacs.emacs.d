@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "log4e" "log4e.el" (22885 45808 0 0))
+;;;### (autoloads nil "log4e" "log4e.el" (22912 31303 0 0))
 ;;; Generated autoloads from log4e.el
 
 (autoload 'log4e-mode "log4e" "\

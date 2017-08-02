@@ -21,7 +21,6 @@
         (helm-c-yasnippet :toggle (configuration-layer/package-usedp 'helm))
         hippie-exp
         yasnippet
-        auto-yasnippet
         smartparens
         ))
 
@@ -235,19 +234,6 @@
                                         eshell-mode-hook)))
     :config (spacemacs|diminish yas-minor-mode " ⓨ" " y")))
 
-(defun auto-completion/init-auto-yasnippet ()
-  (use-package auto-yasnippet
-    :defer t
-    :init
-    (progn
-      (setq aya-persist-snippets-dir
-            (or auto-completion-private-snippets-directory
-                (concat configuration-layer-private-directory "snippets/")))
-      (spacemacs/declare-prefix "iS" "auto-yasnippet")
-      (spacemacs/set-leader-keys
-        "iSc" 'aya-create
-        "iSe" 'spacemacs/auto-yasnippet-expand
-        "iSw" 'aya-persist-snippet))))
 
 (defun auto-completion/post-init-smartparens ()
   (with-eval-after-load 'smartparens

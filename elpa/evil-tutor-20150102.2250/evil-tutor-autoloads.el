@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "evil-tutor" "evil-tutor.el" (22885 44295 0
+;;;### (autoloads nil "evil-tutor" "evil-tutor.el" (22912 31200 0
 ;;;;;;  0))
 ;;; Generated autoloads from evil-tutor.el
 
@@ -16,7 +16,7 @@ Start a evil-tutor session.
 
 ;;;***
 
-;;;### (autoloads nil nil ("evil-tutor-pkg.el") (22885 44295 0 0))
+;;;### (autoloads nil nil ("evil-tutor-pkg.el") (22912 31200 0 0))
 
 ;;;***
 

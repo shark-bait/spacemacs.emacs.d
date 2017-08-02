@@ -1,0 +1,78 @@
+/* eslint-disable */
+ import {mapMutations} from 'vuex'
+ import axios from 'axios'
+ import Vivus from 'vivus'
+ import logoData from './logoData'
+ import { Platform } from 'quasar'
+ export default {
+   mounted () {
+     this.setLayoutNeeded(false)
+     this.setIsLoginPage(true)
+     this.startAnimation()
+   },
+   beforeDestroy () {
+     this.setLayoutNeeded(true)
+     this.setIsLoginPage(false)
+   },
+   computed: {
+     heightSize (){
+       if (Platform.is.desktop) {
+         return 'items-center'
+       }
+       return ''
+     },
+     finalBgColor () {
+       return `bg-${this.bgColor}-${this.toneColor}`
+     },
+     logoMethod () {
+       return logoData[this.logo]
+     }
+   },
+   data () {
+     return {
+       logos: Object.keys(logoData),
+       logo: 'Digitalizer',
+       email: '',
+       
+       password: '',
+       bgColor: 'blue',
+       toneColor: 4,
+       colors: ['purple', 'blue', 'red', 'green', 'amber'],
+       colorTones: ['2', '4', '6', '8', '10'],
+       buttonClasses: ['normal','outline', 'clear', 'push', 'bordered', 'round'],
+       buttonClass: 'normal',
+       vivus: ''
+     }
+   },
+   methods: {
+     ...mapMutations(['setLayoutNeeded', 'setIsLoginPage']),
+     login () {
+       axios.post('/login',{email:this.email,password:this.password}).then(response => {
+         this.user = response.data
+         
+         console.log(response)
+         this.setLayoutNeeded(true)
+         this.setIsLoginPage(false)
+         
+         
+         return
+       }).catch(e => {
+         console.log(e);
+         return;
+       })
+       /*              this.$router.push('/')*/
+     },
+     startAnimation () {
+       this.vivus = new Vivus('logo', {
+         duration: 400,
+         forceRender: false
+       }, function(element) {
+         for (let item of element.el.children[0].children) {
+           item.setAttribute('style', 'fill:white')
+           item.setAttribute('style', 'fill:white')
+         }
+       }
+       )
+     }
+   }
+ }

@@ -4,7 +4,7 @@
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "fill-column-indicator" "fill-column-indicator.el"
-;;;;;;  (22885 44299 0 0))
+;;;;;;  (22912 31225 0 0))
 ;;; Generated autoloads from fill-column-indicator.el
 
 (autoload 'fci-mode "fill-column-indicator" "\

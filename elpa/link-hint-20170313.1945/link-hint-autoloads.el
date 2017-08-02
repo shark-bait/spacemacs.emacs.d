@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "link-hint" "link-hint.el" (22885 44314 0 0))
+;;;### (autoloads nil "link-hint" "link-hint.el" (22912 31256 0 0))
 ;;; Generated autoloads from link-hint.el
 
 (autoload 'link-hint-open-link-at-point "link-hint" "\

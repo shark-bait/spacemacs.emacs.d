@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "uuidgen" "uuidgen.el" (22885 44382 0 0))
+;;;### (autoloads nil "uuidgen" "uuidgen.el" (22912 31323 0 0))
 ;;; Generated autoloads from uuidgen.el
 
 (autoload 'insert-uuid-cid "uuidgen" "\

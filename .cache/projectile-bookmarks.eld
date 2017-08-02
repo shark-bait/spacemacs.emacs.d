@@ -1,0 +1,1 @@
+("~/my_rails_projects/cbook/" "~/.spacemacs.d/" "~/.emacs.d/" "~/my_rails_projects/cbook/server/" "~/my_rails_projects/cbook/client/" "~/my_rails_projects/quasar_test/src/" "~/my_rails_projects/quasar_test/" "~/my_rails_projects/goliath/")

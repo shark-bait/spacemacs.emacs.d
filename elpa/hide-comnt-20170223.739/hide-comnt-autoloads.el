@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "hide-comnt" "hide-comnt.el" (22885 44311 0
+;;;### (autoloads nil "hide-comnt" "hide-comnt.el" (22912 31241 0
 ;;;;;;  0))
 ;;; Generated autoloads from hide-comnt.el
 

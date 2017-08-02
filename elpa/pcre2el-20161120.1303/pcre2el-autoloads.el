@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "pcre2el" "pcre2el.el" (22885 44373 0 0))
+;;;### (autoloads nil "pcre2el" "pcre2el.el" (22912 31310 0 0))
 ;;; Generated autoloads from pcre2el.el
 
 (defvar pcre-mode nil "\

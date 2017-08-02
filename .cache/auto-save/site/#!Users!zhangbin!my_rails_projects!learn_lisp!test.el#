@@ -1,0 +1,6 @@
+(first '())
+(cons '(a) '())
+
+(setq tmp '(a b c d e))
+(setcar tmp 'r)
+(set)

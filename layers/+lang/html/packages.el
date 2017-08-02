@@ -246,6 +246,7 @@
      ("\\.tpl\\.php\\'"  . web-mode)
      ("\\.twig\\'"       . web-mode)
      ("\\.html\\'"       . web-mode)
+     ("\\.vue\\'"       . web-mode)
      ("\\.htm\\'"        . web-mode)
      ("\\.[gj]sp\\'"     . web-mode)
      ("\\.as[cp]x?\\'"   . web-mode)

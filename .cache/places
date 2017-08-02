@@ -1,0 +1,223 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/zhangbin/my_rails_projects/cbook/client/src/components/views/login/login-one.vue" . 1509)
+ ("/Users/zhangbin/.spacemacs.d/init.el" . 3388)
+ ("/Users/zhangbin/.emacs.d/.cache/layouts/persp-auto-save" . 1617)
+ ("/Users/zhangbin/.emacs.d/.cache/recentf" . 9140)
+ ("/Users/zhangbin/my_rails_projects/cbook/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/.gitignore"))
+ ("/Users/zhangbin/.emacs.d/layers/+pair-programming/floobits/README.org" . 575)
+ ("/Users/zhangbin/.emacs.d/layers/+pair-programming/floobits/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+pair-programming/floobits/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+pair-programming/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+pair-programming/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+source-control/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+source-control/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-completion/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-completion/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-editing/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-editing/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-editing-visual/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-editing-visual/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-language/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+spacemacs/spacemacs-language/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+spacemacs/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+spacemacs/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+tags/cscope/README.org" . 335)
+ ("/Users/zhangbin/.emacs.d/layers/+tags/cscope/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+tags/cscope/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+tags/gtags/README.org" . 7287)
+ ("/Users/zhangbin/.emacs.d/layers/+tags/gtags/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+tags/gtags/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+tags/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+tags/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+themes/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+themes/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+tools/nginx/README.org" . 462)
+ ("/Users/zhangbin/.emacs.d/layers/+tools/nginx/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+tools/nginx/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+tools/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+tools/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+vim/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+vim/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+web-services/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+web-services/.."))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/views/login/login-one.js" . 1400)
+ ("/Users/zhangbin/.emacs.d/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers"))
+ ("/Users/zhangbin/.spacemacs.d/layer/"
+  (dired-filename . "/Users/zhangbin/.spacemacs.d/layer/zhangbin"))
+ ("/Users/zhangbin/.spacemacs.d/"
+  (dired-filename . "/Users/zhangbin/.spacemacs.d/.."))
+ ("/Users/zhangbin/"
+  (dired-filename . "/Users/zhangbin/.CFUserTextEncoding"))
+ ("/Users/zhangbin/.emacs.d/layers/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+lang"))
+ ("/Users/zhangbin/.emacs.d/layers/+lang/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+lang/html"))
+ ("/Users/zhangbin/.emacs.d/layers/+lang/html/README.org" . 3859)
+ ("/Users/zhangbin/.emacs.d/layers/+lang/html/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+lang/html/packages.el"))
+ ("/Users/zhangbin/.emacs.d/layers/+lang/html/packages.el" . 8729)
+ ("/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/local/snippets/emacs-lisp-mode/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/local/snippets/emacs-lisp-mode/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/local/snippets/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/local/snippets/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/local/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/local/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/README.org" . 8121)
+ ("/Users/zhangbin/.emacs.d/layers/+completion/helm/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/helm/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+completion/ivy/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/ivy/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+chat/erc/README.org" . 446)
+ ("/Users/zhangbin/.emacs.d/layers/+chat/erc/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+chat/erc/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+chat/jabber/README.org" . 399)
+ ("/Users/zhangbin/.emacs.d/layers/+chat/jabber/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+chat/jabber/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+chat/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+chat/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+checkers/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+checkers/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/packages.el" . 6848)
+ ("/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/auto-completion/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+completion/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+completion/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+distributions/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+distributions/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+frameworks/react/README.org" . 635)
+ ("/Users/zhangbin/.emacs.d/layers/+frameworks/react/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+frameworks/react/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+frameworks/ruby-on-rails/README.org" . 660)
+ ("/Users/zhangbin/.emacs.d/layers/+frameworks/ruby-on-rails/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+frameworks/ruby-on-rails/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+frameworks/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+frameworks/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+fun/emoji/README.org" . 483)
+ ("/Users/zhangbin/.emacs.d/layers/+fun/emoji/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+fun/emoji/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+fun/games/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+fun/games/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+fun/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+fun/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+intl/chinese/README.org" . 2017)
+ ("/Users/zhangbin/.emacs.d/layers/+intl/chinese/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+intl/chinese/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+intl/keyboard-layout/README.org" . 721)
+ ("/Users/zhangbin/.emacs.d/layers/+intl/keyboard-layout/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+intl/keyboard-layout/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+intl/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+intl/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+misc/nlinum/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+misc/nlinum/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+misc/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+misc/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+os/osx/README.org" . 880)
+ ("/Users/zhangbin/.emacs.d/layers/+os/osx/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+os/osx/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+os/nixos/README.org" . 393)
+ ("/Users/zhangbin/.emacs.d/layers/+os/nixos/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+os/nixos/.."))
+ ("/Users/zhangbin/.emacs.d/layers/+os/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+os/.."))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/views/login/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/components/views/login/.#login-one.js"))
+ ("/Users/zhangbin/.emacs.d/elpa/org-plus-contrib-20170731/org-loaddefs.el" . 121974)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/main.rb" . 1681)
+ ("/Users/zhangbin/.emacs.d/layers/+lang/ruby/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+lang/ruby/README.org"))
+ ("/Users/zhangbin/.emacs.d/layers/+lang/ruby/README.org" . 1463)
+ ("/Applications/Emacs.app/Contents/Resources/lisp/simple.el.gz" . 218125)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/db/migrate/20170605144201_create_fabu.rb" . 152)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/db/migrate/20170723063801_create_users.rb" . 183)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/config.ru" . 41)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/main.js" . 1163)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/configs/axios.js" . 869)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/Gemfile.lock" . 559)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/Gemfile" . 211)
+ ("/Users/zhangbin/.zshrc" . 2084)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/db/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/server/db/migrate"))
+ ("/Users/zhangbin/my_rails_projects/cbook/server/db/migrate/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/server/db/migrate/20170723063801_create_users.rb"))
+ ("/Users/zhangbin/.emacs.d/.cache/pyim/dcache/pyim-dcache-iword2count" . 252)
+ ("/Users/zhangbin/.emacs.d/.cache/pyim/dcache/pyim-dcache-icode2word" . 252)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/config/index.js" . 2098)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/fabu/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/components/fabu/index.vue"))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/fabu/index.vue" . 3282)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/device/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/components/device/index.vue"))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/Index.vue" . 504)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/configs/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/configs/.."))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/.."))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src"))
+ ("/Users/zhangbin/my_rails_projects/cbook/server/#main.rb#" . 657)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/build/webpack.base.conf.js" . 1592)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/build/webpack.dev.conf.js" . 106)
+ ("/Users/zhangbin/my_rails_projects/cbook/.projectile" . 2)
+ ("/Users/zhangbin/my_rails_projects/cbook/server/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/server/.DS_Store"))
+ ("/Users/zhangbin/my_rails_projects/cbook/.gitignore" . 267)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/components/fabu/index.vue" . 1189)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/index.html" . 522)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/components/user/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/quasar_test/src/components/user/phone.vue"))
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/components/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/quasar_test/src/components/Index.vue"))
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/components/Index.vue" . 2097)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/components/user/phone.vue" . 30)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/components/user/index.vue" . 184)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/config/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/quasar_test/config/index.js"))
+ ("/Users/zhangbin/my_rails_projects/quasar_test/config/index.js" . 29)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/build/webpack.base.conf.js" . 767)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/build/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/quasar_test/build/webpack.base.conf.js"))
+ ("/Users/zhangbin/my_rails_projects/quasar_test/src/router.js" . 800)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/components/fabu"))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/task/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/cbook/client/src/components/task/index.vue"))
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/task/index.vue" . 1387)
+ ("/Users/zhangbin/my_rails_projects/cbook/client/src/components/task/show.vue" . 2614)
+ ("/Users/zhangbin/.bash_profile" . 719)
+ ("/Users/zhangbin/my_rails_projects/quasar_test/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/quasar_test/.DS_Store"))
+ ("/Users/zhangbin/.emacs.d/layers/+source-control/git/packages.el" . 757)
+ ("/Users/zhangbin/.emacs.d/layers/+source-control/git/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+source-control/git/README.org"))
+ ("/Users/zhangbin/.emacs.d/.gitignore" . 91)
+ ("/Users/zhangbin/.emacs.d/layers/+source-control/git/README.org" . 6803)
+ ("/Users/zhangbin/.emacs.d/private/zhangbin/packages.el" . 986)
+ ("/Users/zhangbin/.emacs.d/layers/+intl/chinese/packages.el" . 2718)
+ ("/Users/zhangbin/.emacs.d/layers/+emacs/org/packages.el" . 17999)
+ ("/Users/zhangbin/.emacs.d/layers/+emacs/org/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/layers/+emacs/org/README.org"))
+ ("/Users/zhangbin/.emacs.d/layers/+emacs/org/README.org" . 7172)
+ ("/Users/zhangbin/.emacs.d/private/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/private/zhangbin"))
+ ("/Users/zhangbin/.emacs.d/private/zhangbin/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/private/zhangbin/packages.el"))
+ ("/Users/zhangbin/my_rails_projects/"
+  (dired-filename . "/Users/zhangbin/my_rails_projects/goliath"))
+ ("/Users/zhangbin/.emacs.d/layers/+lang/ruby/packages.el" . 7349)
+ ("/Users/zhangbin/.emacs.d/layers/+frameworks/ruby-on-rails/packages.el" . 3365)
+ ("/Users/zhangbin/.emacs.d.ori/"
+  (dired-filename . "/Users/zhangbin/.emacs.d.ori/.agignore"))
+ ("/Users/zhangbin/.Trash/"
+  (dired-filename . "/Users/zhangbin/.Trash/1443493638520693.zip"))
+ ("/Users/zhangbin/.anaconda/"
+  (dired-filename . "/Users/zhangbin/.anaconda/navigator"))
+ ("/Users/zhangbin/.SpaceVim/"
+  (dired-filename . "/Users/zhangbin/.SpaceVim/.SpaceVim.d"))
+ ("/Users/zhangbin/.oracle_jre_usage/"
+  (dired-filename . "/Users/zhangbin/.oracle_jre_usage/613bcfb3a06ef613.timestamp"))
+ ("/Users/zhangbin/.emacs.d/assets/"
+  (dired-filename . "/Users/zhangbin/.emacs.d/assets/spacemacs-badge.svg"))
+ ("/"
+  (dired-filename . "/.DocumentRevisions-V100")))

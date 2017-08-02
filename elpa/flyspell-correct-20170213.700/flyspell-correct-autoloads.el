@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "flyspell-correct" "flyspell-correct.el" (22889
-;;;;;;  37660 0 0))
+;;;### (autoloads nil "flyspell-correct" "flyspell-correct.el" (22912
+;;;;;;  31228 0 0))
 ;;; Generated autoloads from flyspell-correct.el
 
 (autoload 'flyspell-correct-word-generic "flyspell-correct" "\
@@ -45,7 +45,7 @@ https://github.com/syl20bnr/spacemacs/issues/6209#issuecomment-274320376
 ;;;***
 
 ;;;### (autoloads nil nil ("flyspell-correct-ido.el" "flyspell-correct-pkg.el")
-;;;;;;  (22889 37660 0 0))
+;;;;;;  (22912 31228 0 0))
 
 ;;;***
 

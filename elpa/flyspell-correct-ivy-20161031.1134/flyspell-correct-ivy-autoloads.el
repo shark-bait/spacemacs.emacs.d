@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("flyspell-correct-ivy.el") (22889 37660
+;;;### (autoloads nil nil ("flyspell-correct-ivy.el") (22912 31229
 ;;;;;;  0 0))
 
 ;;;***
